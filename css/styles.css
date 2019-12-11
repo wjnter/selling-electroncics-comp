@@ -12,11 +12,11 @@ li {
   list-style: none;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #000;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #000;
 }
 .text-gray {
@@ -36,6 +36,11 @@ a:hover {
   background: #fff;
   border-bottom: 1px solid var(--mainCloud);
   box-shadow: 0 4px 2px -2px rgba(0,0,0,0.75);
+}
+.menu-collapse {
+  color: #000;
+  padding: 2px;
+  border: 1px solid #000;
 }
 /* ----------INFO 1------------ */
 .info-1 {

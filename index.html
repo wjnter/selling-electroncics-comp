@@ -19,19 +19,21 @@
   <!--  header -->
   <header id="header" class="header">
       <!-- navbar -->
-      <div class="nav navbar navbar-expand-lg px-5 ">
-        <a href="#home" class="navbar-brand ml-5">
-          <img width="190" height="66" src="img/new-logo-1.png" alt="company logo" class='img-logo' />
+      <div class="nav navbar navbar-expand-lg">
+        <a href="#home" class="navbar-brand">
+          <button
+            type="button"
+            class="navbar-toggler mr-4 "
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <a href="#" class="text-gray text-uppercase d-block d-lg-none">nshopvn.com</a>
+          <img width="190" height="66" src="img/new-logo-1.png" alt="company logo" class='img-logo d-none d-lg-block' />
+        
         </a>
-        <button
-          type="button"
-          class="navbar-toggler "
-          data-toggle="collapse"
-          data-target="#myNavbar"
-        >
-          <span class="navbar-toggler-icon"> </span>
-        </button>
-        <div class="info-1">
+        <div class="info-1 ml-5">
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav mx-auto text-navbar">
               <li class="nav-item active">
@@ -101,17 +103,15 @@
           </a>
           <div class="dropdown customer-item">
             <div class="user-item d-flex">
-              <span><i class="fas fa-gift"></i></span>
-              <div class="user-text text-uppercase">
-                <p class="my-0">thông tin</p>
-                <p class="my-0">khuyến mãi</p>
+              <span><i class="fas fa-shopping-cart"></i></span>
+              <div class="user-text">
+                <p class="my-0  text-uppercase">giỏ hàng</p>
+                <p class="my-0"><span>0</span> sản phẩm</p>
               </div>  
             </div>
             <div class="dropdown-menu dropdown-menu-right">
-              <div class="dropdown-content">
-                <a class="dropdown-item" href="https://nshopvn.com/khuyen-mai/khuyen-mai-12-2019/">Khuyến mãi tháng 12.2019</a>
-                <a class="dropdown-item" href="https://nshopvn.com/khuyen-mai/mien-phi-van-chuyen/">Khuyến mãi miễn phí vận chuyển</a>
-                <a class="dropdown-item" href="https://nshopvn.com/khuyen-mai/tich-diem-hoan-tien/">Chương trình tích điểm, hoàn tiền</a>
+              <div class="dropdown-content current-cart">
+                
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
                   <a href="#">Cảm biến ánh sáng</a>
                 </li>
                 <li class="menu-item-child">
-                  <div class=" menu-name-item d-flex justify-content-between">
+                  <div class="d-flex justify-content-between">
                     <a href="#" class="">Cảm biến</a>
                     <a href="#sensor-items_1" data-toggle="collapse" class="align-self-center sort-icon">
                       <i class="fas fa-sort-down"></i>
@@ -218,7 +218,7 @@
                     <a href="#">Cảm biến ánh sáng</a>
                   </li>
                   <li class="menu-item-child">
-                    <div class=" menu-name-item d-flex justify-content-between">
+                    <div class="d-flex justify-content-between">
                       <a href="#" class="">Cảm biến</a>
                       <a href="#circuit-items_1" data-toggle="collapse" class="align-self-center sort-icon">
                         <i class="fas fa-sort-down"></i>
@@ -263,7 +263,7 @@
                     <a href="#">Cảm biến ánh sáng</a>
                   </li>
                   <li class="menu-item-child">
-                    <div class=" menu-name-item d-flex justify-content-between">
+                    <div class="d-flex justify-content-between">
                       <a href="#" class="">Cảm biến</a>
                       <a href="#module-items_1" data-toggle="collapse" class="align-self-center sort-icon">
                         <i class="fas fa-sort-down"></i>
@@ -308,7 +308,7 @@
                     <a href="#">Cảm biến ánh sáng</a>
                   </li>
                   <li class="menu-item-child">
-                    <div class=" menu-name-item d-flex justify-content-between">
+                    <div class="d-flex justify-content-between">
                       <a href="#" class="">Cảm biến</a>
                       <a href="#robot-items_1" data-toggle="collapse" class="align-self-center sort-icon">
                         <i class="fas fa-sort-down"></i>
@@ -353,7 +353,7 @@
                     <a href="#">Cảm biến ánh sáng</a>
                   </li>
                   <li class="menu-item-child">
-                    <div class=" menu-name-item d-flex justify-content-between">
+                    <div class="d-flex justify-content-between">
                       <a href="#" class="">Cảm biến</a>
                       <a href="#toolkit-items_1" data-toggle="collapse" class="align-self-center sort-icon">
                         <i class="fas fa-sort-down"></i>
@@ -691,7 +691,7 @@
   </section>
   
   <!-- Footer -->
-  <footer id="footer" class="footer py-5">
+  <footer id="footer" class="footer py-3">
     <div class="container">
       <!-- support Info -->
       <div class="row">
