@@ -258,20 +258,32 @@ a:hover {
 }
 .add-to-cart-success {
   width: 380px;
-  height: 210px;
+  height: 180px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background: rgba(245, 245, 245, 0.7);
   font-size: 20px;
 }
 .view-product {
+  display: flex;
   width: 800px;
   height: 400px;
 }
 .img-modal-view {
   padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .add-to-cart-success {
+    width: 358px !important;
+    height: 180px;
+  }
+  .view-product {
+    width: 380px !important; 
+    height: 400px;
+    flex-direction: column;
+  }
 }
 
 /* -------------- footer ---------------- */
